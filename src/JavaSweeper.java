@@ -14,8 +14,8 @@ public class JavaSweeper extends JFrame {
     private Game game;
     private JPanel panel; /// игровое поле
     private JLabel label; /// метка о состоянии игры
-    private final int COLS = 15; /// количество столбцов
-    private final int ROWS = 15; /// количество строк
+    private final int COLS = 10; /// количество столбцов
+    private final int ROWS = 10; /// количество строк
     private final int BOMBS = 20; /// количество бомб
     private final int IMAGE_SIZE = 50; /// размер изображения одной клетки игрового поля
 
